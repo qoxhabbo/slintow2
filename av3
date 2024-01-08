@@ -709,7 +709,7 @@
 
             
             // Ver se foi aprovado ou não para aprovar necessário acertar = 10
-            if (pontuacao >= 9) {
+            if (pontuacao >= 6) {
                 veredito = "Aprovado"
                 document.getElementById('enviar_veredito').innerHTML = veredito
                 document.getElementById('aprovado').innerHTML = `Aprovado! Você acertou ${pontuacao}/9`
